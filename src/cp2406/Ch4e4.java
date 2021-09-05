@@ -21,7 +21,7 @@ public class Ch4e4 {
         int countRolls = 0;
         double avgRollCount;
         for (int i = 0; i < NUMBER_OF_EXPERIMENTS; i++) {
-            experimentRolls = countRolls(2);
+            experimentRolls = countRolls(total);
             countRolls += experimentRolls;
         }
         avgRollCount = ((double)countRolls) / NUMBER_OF_EXPERIMENTS;
